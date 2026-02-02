@@ -19,7 +19,7 @@ export function AcceptanceForm() {
     dateIdea: "",
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isSubmitted, setIsSubmitted] = useState(true)
   const [confetti, setConfetti] = useState<Array<{ id: number; left: number; delay: number; color: string }>>([])
 
   useEffect(() => {
